@@ -33,7 +33,7 @@ console.log(when_to_launch);
 var children = when_to_launch.children;
 console.log(children);
 
-var collect = document.querySelectorAll(".bg-main-content .box h2")[12].innerHTML + "\n-------------------\n\n";
+var collect = children[0].innerHTML + "\n-------------------\n\n";
 console.log(collect);
 
 var i;
